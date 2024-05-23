@@ -24,10 +24,8 @@ public class BrowserHistoryUpgrade {
                 if (stackURLs.size() < 2){
                     System.out.println("no previous URLs");
                 }
-
+                // Запазваме последно въведения url само когато имаме команда "back", защото ни трябва да се върнем
                 else {
-
-                    // Запазваме последно въведения url защото само когато имаме команда "back" ни трябва да се върнем
                     String currentURL = stackURLs.pop();
                     // Запазваме сегашния- последно въведения url
                     forwardsQueue.push(currentURL);
@@ -46,14 +44,16 @@ public class BrowserHistoryUpgrade {
                     // Ако не е празен взимаме последно добавения елемент
                     String currentForward = forwardsQueue.pop();
                     System.out.println(currentForward);
+                    // Добавяме отново url към стека, който държи настоящия url адрес
                     stackURLs.push(currentForward);
                 }
             }
+            // Тук запазваме всички url адреси в "stackURLs"
             else {
                 // Добавяме всеки url и го принтираме
                 stackURLs.push(input);
                 System.out.println(input);
-                // Изчистваме винаги стека с url който за напред
+                // Изчистваме винаги стека с url които са за напред
                 forwardsQueue.clear();
             }
 
