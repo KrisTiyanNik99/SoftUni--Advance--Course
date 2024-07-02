@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Relative {
+class Relative {
     private String name;
     private String birthday;
 

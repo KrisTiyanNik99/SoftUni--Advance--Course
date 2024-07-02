@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Tire {
+class Tire {
     private double pressure;
     private int age;
 

@@ -2,7 +2,7 @@ package DefiningClasses;
 
 import java.util.List;
 
-public class Car {
+class Car {
 //    private String brand;
 //    private String model;
 //    private int hoursPower;

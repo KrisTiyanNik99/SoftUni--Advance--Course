@@ -3,7 +3,7 @@ package DefiningClasses;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person {
+class Person {
     //характеристики
 //    private String name;
 //    private int age;

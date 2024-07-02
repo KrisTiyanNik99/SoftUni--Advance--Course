@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Cargo {
+class Cargo {
     private int cargoWeight;
     private String cargoType;
 

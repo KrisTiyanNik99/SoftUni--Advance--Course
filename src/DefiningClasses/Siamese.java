@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Siamese extends Cat{
+class Siamese extends Cat{
     private double earSize;
 
     public Siamese(String name, double earSize) {

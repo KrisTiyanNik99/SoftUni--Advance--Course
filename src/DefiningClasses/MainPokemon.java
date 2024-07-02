@@ -2,7 +2,7 @@ package DefiningClasses;
 
 import java.util.*;
 
-public class MainPokemon {
+class MainPokemon {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,8 +19,8 @@ public class MainPokemon {
             int pokemonHealth = Integer.parseInt(data[3]);
 
             Trainer trainer = getTrainerByName(trainers, trainerName);
-            Pokemon pokemon = new Pokemon(pokemonName, pokemonElement, pokemonHealth);
-            trainer.addPokemon(pokemon);
+            //Pokemon pokemon = new Pokemon(pokemonName, pokemonElement, pokemonHealth);
+            //trainer.addPokemon(pokemon);
 
             input = scanner.nextLine();
         }

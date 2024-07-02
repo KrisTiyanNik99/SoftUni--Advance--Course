@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class BankAccount {
+class BankAccount {
     // Променливи с думата "static", принадлежат само на класа в който са написани и се достъпват само ако са "public"
     private static double interestRate = 0.02;
     // Тези променливи или методи със "static" се достъпват директно чрез класа, а НЕ чрез обекта от класа

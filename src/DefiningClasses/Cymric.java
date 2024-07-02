@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Cymric extends Cat{
+class Cymric extends Cat{
 
     private double furLength;
 

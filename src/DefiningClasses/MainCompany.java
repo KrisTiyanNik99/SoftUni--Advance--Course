@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MainCompany {
+class MainCompany {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -26,35 +26,35 @@ public class MainCompany {
                     String department = tokens[3];
                     double salary = Double.parseDouble(tokens[4]);
                     Company company = new Company(companyName, department, salary);
-                    person.setCompany(company);
+                    //person.setCompany(company);
                     break;
                 case "pokemon":
                     //"{Name} pokemon {pokemonName} {pokemonType}"
                     String pokemonName = tokens[2];
                     String pokemonType = tokens[3];
                     Pokemon pokemon = new Pokemon(pokemonName, pokemonType);
-                    person.addPokemon(pokemon);
+                    //person.addPokemon(pokemon);
                     break;
                 case "parents":
                     //"{Name} parents {parentName} {parentBirthday}"
                     String parentName = tokens[2];
                     String parentBirthday = tokens[3];
                     Relative parent = new Relative(parentName, parentBirthday);
-                    person.addParent(parent);
+                    //person.addParent(parent);
                     break;
                 case "children":
                     //"{Name} children {childName} {childBirthday}"
                     String childName = tokens[2];
                     String childBirthday = tokens[3];
                     Relative child = new Relative(childName, childBirthday);
-                    person.addChild(child);
+                    //person.addChild(child);
                     break;
                 case "car":
                     //"{Name} car {carModel} {carSpeed}"
                     String carModel = tokens[2];
                     String carSpeed = tokens[3];
                     Car car = new Car(carModel, carSpeed);
-                    person.setCar(car);
+                    //person.setCar(car);
                     break;
             }
 
@@ -73,8 +73,9 @@ public class MainCompany {
                 return person;
             }
         }
-        Person person = new Person(personName);
-        people.add(person);
-        return person;
+        //Person person = new Person(personName);
+        //people.add(person);
+        //return person;
+        return null;
     }
 }

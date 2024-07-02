@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Cat {
+class Cat {
     private String name;
 
     public Cat(String name) {

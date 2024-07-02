@@ -1,6 +1,5 @@
 package DefiningClasses;
-
-public class Engine {
+class Engine {
     private String model;
     private String power;
     private String displacement;

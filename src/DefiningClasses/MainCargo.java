@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MainCargo {
+class MainCargo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -59,13 +59,13 @@ public class MainCargo {
                 }
             }
             Engine engine = getEngineByModel(engines, engineModel);
-            Car car = new Car(carModel, engine, carWeight, carColor);
-            cars.add(car);
+            //Car car = new Car(carModel, engine, carWeight, carColor);
+            //cars.add(car);
         }
 
-        for (Car car : cars) {
-            System.out.println(car);
-        }
+        //for (Car car : cars) {
+        //    System.out.println(car);
+        //}
     }
 
     private static Engine getEngineByModel(List<Engine> engines, String engineModel) {

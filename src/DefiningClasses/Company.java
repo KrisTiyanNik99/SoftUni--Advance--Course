@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Company {
+class Company {
     private String name;
     private String department;
     private double salary;

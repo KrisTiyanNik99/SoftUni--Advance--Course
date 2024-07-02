@@ -2,7 +2,7 @@ package DefiningClasses;
 
 import java.util.*;
 
-public class MainEmployee {
+class MainEmployee {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package ExamLabs.MatrixLabs;
 
 import java.util.Scanner;
 
-public class EscapeTheMaze {
+class EscapeTheMaze {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

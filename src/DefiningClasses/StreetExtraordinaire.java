@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class StreetExtraordinaire extends Cat{
+class StreetExtraordinaire extends Cat{
     private double decibelsOfMeows;
 
     public StreetExtraordinaire(String name, double decibelsOfMeows) {

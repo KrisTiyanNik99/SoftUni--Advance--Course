@@ -3,7 +3,7 @@ package DefiningClasses;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Trainer {
+class Trainer {
     private String name;
     private int badges;
     private List<Pokemon> pokemons;
@@ -30,19 +30,19 @@ public class Trainer {
 
         boolean isAtLeastOneExist = false;
         for (Pokemon pokemon : this.pokemons) {
-            if (pokemon.getElement().equals(element)) {
-                isAtLeastOneExist = true;
-                break;
-            }
+            //if (pokemon.getElement().equals(element)) {
+            //    isAtLeastOneExist = true;
+            //    break;
+           // }
         }
 
         if (isAtLeastOneExist) {
             badges++;
         } else {
             for (Pokemon pokemon : this.pokemons) {
-                pokemon.loseHealth();
+               // pokemon.loseHealth();
             }
-            this.pokemons.removeIf(pokemon -> pokemon.getHealth() <= 0);
+            //this.pokemons.removeIf(pokemon -> pokemon.getHealth() <= 0);
         }
     }
 

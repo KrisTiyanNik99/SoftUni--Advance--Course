@@ -1,6 +1,6 @@
 package DefiningClasses;
 
-public class Pokemon {
+class Pokemon {
 //    private String name;
 //    private String element;
 //    private int health;

@@ -3,7 +3,7 @@ package DefiningClasses;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Department {
+class Department {
     private String name;
     private List<Employee> employees;
 
