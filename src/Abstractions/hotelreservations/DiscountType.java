@@ -1,6 +1,6 @@
 package Abstractions.hotelreservations;
 
-public enum DiscountType {
+enum DiscountType {
     VIP(0.80),
     SECOND_VISIT(0.90),
     NONE(1.00);

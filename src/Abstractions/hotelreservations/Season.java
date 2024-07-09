@@ -1,6 +1,6 @@
 package Abstractions.hotelreservations;
 
-public enum Season {
+enum Season {
     SPRING(2),
     SUMMER(4),
     AUTUMN(1),
