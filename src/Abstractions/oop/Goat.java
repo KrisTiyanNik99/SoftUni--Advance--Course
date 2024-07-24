@@ -10,4 +10,9 @@ public class Goat extends Animal{
     public String getName() {
         return super.getName() + " is " + getKind();
     }
+
+    @Override
+    public void printAnimal() {
+        super.printAnimal();
+    }
 }

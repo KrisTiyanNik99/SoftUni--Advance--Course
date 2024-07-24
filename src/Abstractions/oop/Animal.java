@@ -23,4 +23,8 @@ class Animal {
     protected String getKind() {
         return kind;
     }
+
+    protected void printAnimal() {
+        System.out.println("From Animal");
+    }
 }
