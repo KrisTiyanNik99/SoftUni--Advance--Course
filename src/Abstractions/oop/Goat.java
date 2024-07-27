@@ -6,13 +6,5 @@ public class Goat extends Animal{
         super(name, weight, "Goat");
     }
 
-    @Override
-    public String getName() {
-        return super.getName() + " is " + getKind();
-    }
 
-    @Override
-    public void printAnimal() {
-        super.printAnimal();
-    }
 }

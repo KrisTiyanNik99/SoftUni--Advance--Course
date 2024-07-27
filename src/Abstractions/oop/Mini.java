@@ -1,12 +1,8 @@
 package Abstractions.oop;
 
-public class Mini extends Goat{
+class Mini extends Goat{
 
-    public Mini(String name){
-        super("Kolio", 45);
-    }
-
-    public void kindString(){
-        String kind = getKind();
+    public Mini(String name, int weight) {
+        super(name, weight);
     }
 }

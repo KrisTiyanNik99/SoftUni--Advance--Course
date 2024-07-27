@@ -1,6 +1,6 @@
 package Encapsulation.footballteamgenerator;
 
-public class Player {
+class Player {
     private String name;
     private int endurance;
     private int sprint;

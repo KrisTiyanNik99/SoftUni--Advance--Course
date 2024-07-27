@@ -3,7 +3,7 @@ package Encapsulation.footballteamgenerator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team {
+class Team {
     private String name;
     private List<Player> players;
 

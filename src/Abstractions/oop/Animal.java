@@ -27,4 +27,8 @@ class Animal {
     protected void printAnimal() {
         System.out.println("From Animal");
     }
+
+    public void scary() {
+        System.out.println("Scary....");
+    }
 }
