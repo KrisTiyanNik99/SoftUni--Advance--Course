@@ -11,8 +11,9 @@ class Main {
         dog.getFood("meat");
         System.out.println();
 
-        Cat cat = new Cat();
+        Cat cat = new Cat("Shemet");
         cat.eat();
+        cat.eat("Puhcho");
         cat.meow();
         cat.getFood("fish");
         System.out.println();
