@@ -5,4 +5,9 @@ class Car extends Vehicle{
         super(fuel, horsePower);
         setFuelConsumption(3);
     }
+
+    @Override
+    public void test() {
+        System.out.println("From Car");
+    }
 }

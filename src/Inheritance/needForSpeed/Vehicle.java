@@ -42,4 +42,8 @@ class Vehicle {
     public void setHorsePower(int horsePower) {
         this.horsePower = horsePower;
     }
+
+    public void test() {
+        System.out.println("From vehicle");
+    }
 }
