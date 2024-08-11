@@ -35,6 +35,10 @@ class Animal {
         this.age = age;
     }
 
+    protected void Test(){
+
+    }
+
     private void setGender(String gender) {
         checkIsValidInput(gender);
         this.gender = gender;

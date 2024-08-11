@@ -9,4 +9,9 @@ class Cat extends Animal{
     public String produceSound() {
         return "Meow meow";
     }
+
+    @Override
+    public void Test() {
+        super.Test();
+    }
 }
